@@ -1,0 +1,15 @@
+{
+  "name": "@pioug/poloniex",
+  "version": "1.0.0",
+  "description": "A tiny Node.js wrapper for Poloniex API",
+  "main": "index.js",
+  "author": "Gilles Piou <gilles.piou@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.16.2"
+  },
+  "engines": {
+    "node": ">=8.1.2",
+    "npm": ">=5.1.0"
+  }
+}
