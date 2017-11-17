@@ -16,7 +16,7 @@ I created this module because I believe that simple and readable code matters fo
 
 ### Requirements
 
-- Node 8 (with `--harmony` flag for **object rest and spread properties** support)
+- Node 8 (for **object rest and spread properties** support)
 - npm 5.1.0 (for **npm lockfiles** support)
 
 ### Installation
@@ -27,12 +27,10 @@ npm install --save @pioug/poloniex
 
 ## Usage
 
-Node must run with the `--harmony` flag.
-
-It is also recommended to use environment variables for `POLONIEX_KEY` and `POLONIEX_SECRET`:
+It is recommended to use environment variables for `POLONIEX_KEY` and `POLONIEX_SECRET`:
 
 ```sh
-POLONIEX_KEY=my_api_key POLONIEX_SECRET=my_secret node --harmony app.js
+POLONIEX_KEY=my_api_key POLONIEX_SECRET=my_secret node app.js
 ```
 
 The wrapper API is following this format:
