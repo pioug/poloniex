@@ -2,6 +2,10 @@
   "name": "@pioug/poloniex",
   "version": "1.0.0",
   "description": "A tiny Node.js wrapper for Poloniex API",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pioug/poloniex.git"
+  },
   "main": "index.js",
   "author": "Gilles Piou <gilles.piou@gmail.com>",
   "license": "MIT",
