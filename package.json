@@ -6,7 +6,7 @@
   "author": "Gilles Piou <gilles.piou@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "0.16.2"
+    "axios": "^0.17.1"
   },
   "engines": {
     "node": ">=8.1.2",
